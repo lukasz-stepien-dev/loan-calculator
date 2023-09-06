@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <title>Kalkulator kredytowy</title>
@@ -21,14 +21,16 @@
         <input type="number" name="amount" id="amount"><br>
         <label for="installments">Liczba rat (6 - 64)</label><br>
         <input type="number" name="installments" id="installments"><br>
-        <label>Oprocentowanie</label><br>
-        <input type="radio" name="rate" value="7.6" id="7.6" checked>
-        <label for="7.6">7,6%</label>
-        <input type="radio" name="rate" value="7.6" id="8.3">
-        <label for="8.3">8,3%</label>
-        <input type="radio" name="rate" value="7.6" id="9.5">
-        <label for="9.5">9,5%</label><br>
-        <input type="submit" value="Oblicz">
+        <section id="bank-rate">
+            <label>Oprocentowanie</label><br>
+            <input type="radio" name="rate" value="7.6" id="7.6" checked>
+            <label for="7.6">7,6%</label>
+            <input type="radio" name="rate" value="7.6" id="8.3">
+            <label for="8.3">8,3%</label>
+            <input type="radio" name="rate" value="7.6" id="9.5">
+            <label for="9.5">9,5%</label><br>
+            <input type="submit" value="Oblicz">
+        </section>
     </form>
 </main>
 

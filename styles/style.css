@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main {
+    padding: 60px;
+    background-color: #D8BD8A;
+    border-radius: 20px;
+    box-shadow: lightgrey 0 0 5px;
+    transition: all 0.5s;
+}
+
+main:hover {
+    box-shadow: grey 0 0 20px;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#bank-rate {
+    text-align: center;
+}
