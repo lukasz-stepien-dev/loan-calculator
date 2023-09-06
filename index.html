@@ -2,9 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Kalkulator kredytowy</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+<header><h1>Kalkulator kredytowy</h1></header>
+<main>
+    <form action="#" method="post">
+        <label for="loan-purpose">Cel kredytu</label><br>
+        <select  name="loan-purpose" id="loan-purpose">
+            <option disabled selected value="empty">-- Wybierz opcje --</option>
+            <option value="trip">Wycieczka</option>
+            <option value="car">Zakup samochodu</option>
+            <option value="renovation">Remont mieszkania</option>
+            <option value="other">Inny</option>
+        </select><br>
+        <label for="amount">Kwota kredytu (5000 zł - 250 000 zł)</label><br>
+        <input type="number" name="amount" id="amount"><br>
+        <label for="installments">Liczba rat (6 - 64)</label><br>
+        <input type="number" name="installments" id="installments"><br>
+        <label>Oprocentowanie</label><br>
+        <input type="radio" name="rate" value="7.6" id="7.6" checked>
+        <label for="7.6">7,6%</label>
+        <input type="radio" name="rate" value="7.6" id="8.3">
+        <label for="8.3">8,3%</label>
+        <input type="radio" name="rate" value="7.6" id="9.5">
+        <label for="9.5">9,5%</label><br>
+        <input type="submit" value="Oblicz">
+    </form>
+</main>
 
+<script src="scripts/script.js"></script>
 </body>
 </html>
