@@ -38,3 +38,7 @@ form {
 #bank-rate {
     text-align: center;
 }
+
+.hide {
+    display: none;
+}
